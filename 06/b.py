@@ -1,6 +1,6 @@
 def main():
-    # gets data from the a.txt file in the same directory
-    file = open("a.txt", "r")
+    # gets data from the data.txt file in the same directory
+    file = open("data.txt", "r", encoding="utf-8")
 
     signal = file.readline()
 
